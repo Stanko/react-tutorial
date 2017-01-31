@@ -2,13 +2,43 @@
 <html>
 <head>
   <title>React tutorial</title>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: normal;
+    }
+
+    body {
+      background: #ededef;
+    }
+
+    #app,
+    .Info {
+      max-width: 600px;
+      padding: 40px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #ddd;
+      margin: 20px 0;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
 
-  Check complete tutorial
-  <a href="https://stanko.github.io/setting-up-webpack-babel-and-react-from-scratch/">here</a>.
+  <div class="Info">
+    <hr />
+    Check complete tutorial
+    <a href="https://stanko.github.io/setting-up-webpack-babel-and-react-from-scratch/">here</a>.
+  </div>
 
   <script src="app.js"></script>
 </body>
